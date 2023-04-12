@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    
+    .social_navbar {
+        width: inherit;
+        height: auto;
+        background-color: rgb(31, 31, 31);
+        display: flex;
+        color: #fff;
+    }
+    .principal_navbar {
+        width: inherit;
+        height: auto;
+        display: flex;
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        &_items {
+            display: flex;
+            li {
+                list-style: none;
+                
+            }
+        }
+    }
+}
